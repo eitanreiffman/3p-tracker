@@ -1,14 +1,11 @@
 
 .medium-box {
     width: 300px;
-    height: 100px;
+    height: 80px;
     background-color: aliceblue;
     border: 1px solid black;
     text-align: center;
     font-size: 30px;
     padding: 15px;
+    margin: 20px;
 };
-
-.number {
-    padding: 10px;
-}
