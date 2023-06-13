@@ -17,10 +17,13 @@ export default function MediumBox() {
     butler: ['Jimmy Butler', 5]
    });
 
+   
+
    const updateNumber = (playerKey) => {
     setPlayers(prevPlayers => {
         const updatedPlayers = { ...prevPlayers };
         updatedPlayers[playerKey][1] += 1;
+        console.log('3 pointer incremented');
         return updatedPlayers;
     })
    }
